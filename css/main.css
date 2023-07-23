@@ -71,3 +71,21 @@ p:first-of-type::first-letter {
 .misterio:hover {
   color: #552828;
 }
+
+.flex {
+  display: flex;
+}
+
+.flex aside {
+  flex: 0 1 300px;
+}
+
+.flex main {
+  flex: 1 1 300px;
+}
+
+@media screen and (max-width: 800px) {
+  .flex {
+    display: block;
+  }
+}
