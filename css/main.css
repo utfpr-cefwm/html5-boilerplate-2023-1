@@ -63,3 +63,11 @@ p:first-of-type::first-letter {
   text-shadow: 0.1em 0.1em 0.1em #8000806e;
   color: #1b1919;
 }
+
+.misterio {
+  text-transform: capitalize;
+  text-shadow: 0.1em 0.1em 0.1em rgba(0, 0, 0, .35);
+}
+.misterio:hover {
+  color: #552828;
+}
