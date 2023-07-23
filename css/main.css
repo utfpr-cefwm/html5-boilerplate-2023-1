@@ -34,3 +34,23 @@ p:first-of-type::first-letter {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: bold;
 }
+
+.citacao {
+  text-align: justify;
+  font-size: .9em;
+  line-height: 2em;
+  margin: 1em 2em 1em 4em;
+  font-style: italic;
+  text-transform: uppercase;
+}
+.citacao::before {
+  content: "“";
+  font-size: 3em;
+  vertical-align: bottom;
+  line-height: 20px;
+}
+.citacao::after {
+  content: "”";
+  font-size: 3em;
+  vertical-align: text-top;
+}
