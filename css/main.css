@@ -76,6 +76,10 @@ p:first-of-type::first-letter {
   display: flex;
 }
 
+.flex.vertical {
+  flex-direction: column;
+}
+
 .flex aside {
   flex: 0 1 300px;
 }
